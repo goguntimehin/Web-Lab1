@@ -1,0 +1,115 @@
+.form{
+  text-align: center;
+
+}
+h1{
+  color: blue;
+  text-align: center;
+  font-family: 'Lobster', cursive
+}
+h2{
+  color: purple;
+  text-align: center;
+  font-family: 'Lobster', cursive
+}
+/*this is for my background image*/
+body{
+  background-image: url(https://cdn.wallpapersafari.com/81/38/Sbo9vl.jpg);
+  text-align: center;
+
+}
+.Signup{
+  text-align: center;
+}
+.img{
+  width: 1500px;
+}
+
+
+
+
+  .dropdown-category{
+    margin: auto;
+  }
+  .dropdown-toggle{
+    margin: auto;
+  }
+  /* .navbar .dropdown-toggle,
+  .nav-tabs .dropdown-toggle {
+    margin: auto;
+  } */
+
+
+
+/* This css part created the tiny arrow in my dropdown */
+.myrolldown .sub-arrow1:after {
+  content: '\203A';
+  float: right;
+  margin-right: 20px;
+}
+
+.myrolldown a {
+	color: yellow;
+}
+.myrolldown,
+.myrolldown ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.myrolldown ul {
+	/* box-shadow: 2px 2px 15px 0 rgba(0,0,0, 0.5); */
+  color: blue;
+  width: 250px;
+}
+.myrolldown li {
+	position: relative;
+}
+.myrolldown a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+
+
+}
+/* This is for my dropdown page,hover on each show black color */
+.myrolldown a:hover {
+	background: black;
+  border-bottom: 1px solid gray;
+}
+
+
+
+/* This css put navbar in line*/
+.myrolldown > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px;
+}
+.myrolldown > li:first-child {
+	margin-left: 0;
+}
+
+/* This is to arrange my Navbar */
+.myrolldown > li > ul {
+	text-align: left;
+	display: none;
+	background: green;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 240px;
+	z-index: 999999;
+}
+
+/* This part of css it is where i able to join by subcategories to the main parent */
+.myrolldown > li > ul > li > ul {
+	text-align: left;
+	display: none;
+	background: blue;
+	position: absolute;
+	left: 100%;
+  top: 0;
+  z-index: 9999999;
+
+}
